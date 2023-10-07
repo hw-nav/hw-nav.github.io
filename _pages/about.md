@@ -10,7 +10,7 @@ redirect_from:
 
 
 
-$$\sum_{k=1}^n k^3=\left(\sum_{k=1}^n\right)^2$$
+$$\sum_{k=1}^n k^3=\left(\sum_{k=1}^n k\right)^2$$
 
 
 Getting started

@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "年轻人"
+  name             : "Name in Config"
   avatar           : "profile1.png"
-  bio              : "数学, 星空, 风, 与自由"
+  bio              : "Fun"
   location         : "Location"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

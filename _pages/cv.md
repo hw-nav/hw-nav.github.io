@@ -11,16 +11,13 @@ redirect_from:
 
 Education
 ======
-* B.S. in Navigation Enginnering, Wuhan University, 2022
-* M.S. in Mathematical, Shanghai Jiaotong University, 2026(expected)
+* B.S. in Hogwortz
 
 Work experience
 ======
-
+* Null
 
   
-Skills
-======
-* 推送
+
 
 

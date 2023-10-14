@@ -14,7 +14,7 @@ redirect_from:
 
 &#124也没用
 
-如果强行使用是这样的$\mu'\(\big|_\mathcal{A}=\mu\)$
+如果强行使用是这样的$\mu'\big&#124_\mathcal{A}=\mu$
 
 
 

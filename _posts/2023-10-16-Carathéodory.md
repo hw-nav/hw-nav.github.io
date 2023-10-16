@@ -1,12 +1,13 @@
 ---
-permalink: /
-title: "hw-nav"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+title: 'Carathéodory Theorem'
+date: 2023-10-16
+permalink: /posts/2023/16/CarathéodoryTheorem/
+tags:
+  - Measure
+  - Carathéodory Theorem
 ---
+
+
 
 # Carathéodory Theorem
 

@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "More is difficult"
+title                    : "hw/hw-nav"
 title_separator          : "-"
 name                     : &name "Nav"
 description              : &description "personal description"
@@ -80,10 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Name in Config"
+  name             : "hw"
   avatar           : "profile1.png"
-  bio              : "Fun"
-  location         : "Location"
+  bio              : "嗨"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"

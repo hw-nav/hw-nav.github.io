@@ -1,7 +1,7 @@
 ---
 title: 'Global Convergence of a Stochastic Levenberg–Marquardt Algorithm Based on Trust Region'
 date: 2024-10-26
-permalink: /posts/2024/26/CarathéodoryTheorem/
+permalink: /posts/2024/10/Global-Convergence-of-a-SLM-Algorithm-Based-on-Trust-Region/
 tags:
   - Optimization
   - Stochastic Levenberg–Marquardt
@@ -11,8 +11,6 @@ tags:
 
 
 ## Algorithm
-
-The algorithm
 
 ---
 **Algorithm**: The stochastic LM algorithm

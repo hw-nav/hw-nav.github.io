@@ -1,7 +1,7 @@
 ---
 title: 'Carathéodory Theorem'
 date: 2023-10-16
-permalink: /posts/2023/16/CarathéodoryTheorem/
+permalink: /posts/2023/10/CarathéodoryTheorem/
 tags:
   - Measure
   - Carathéodory Theorem
@@ -21,3 +21,6 @@ tags:
 > Measure
 
 > Outer Measure
+
+
+

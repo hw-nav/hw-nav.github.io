@@ -6,3 +6,6 @@ tags:
   - Optimization
   - Stochastic Levenberg–Marquardt
 ---
+
+Similar to [Global Convergence of a Stochastic Levenberg–Marquardt Algorithm Based on Trust Region](https://hw-nav.github.io/posts/2024/10/Global-Convergence-of-a-SLM-Algorithm-Based-on-Trust-Region/)
+

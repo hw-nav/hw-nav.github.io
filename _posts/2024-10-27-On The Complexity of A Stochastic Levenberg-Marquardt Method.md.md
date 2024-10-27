@@ -9,3 +9,11 @@ tags:
 
 Similar to [Global Convergence of a Stochastic Levenberg–Marquardt Algorithm Based on Trust Region](https://hw-nav.github.io/posts/2024/10/Global-Convergence-of-a-SLM-Algorithm-Based-on-Trust-Region/)
 
+Main result: Define
+
+$$N_\varepsilon = \inf \{k\in \mathbb{N} \mid \|\nabla R(W_k)\| \leq \varepsilon\}$$
+
+then
+
+$$E(N_\varepsilon) \leq \zeta_6 \varepsilon^{-2} + \frac{1}{1-\exp(-\zeta_7)}.$$
+

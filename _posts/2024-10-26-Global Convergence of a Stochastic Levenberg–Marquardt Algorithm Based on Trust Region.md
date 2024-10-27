@@ -50,14 +50,33 @@ I will push code in github.
 
 ## Paper
 
-The final theorem is to prove
+The paper's goal to prove
 
 $$\liminf_{k\rightarrow \infty} \|\nabla R(W_k)\| = 0.$$
 
 Almost-sure global convergence.
 
 
+**Restrict**: $f, \|J\|, \|\nabla^2 f\|$ bounded (**Assumption 1**). 
+If we want to more information, assume $f\rightarrow R, g \rightarrow \nabla R$ unbiased and variances uniformly bounded (**Assumption 2**).
 
+Then so long as $|\mathcal{S}_k|$ enough large, 
+we get $f \rightarrow R$ accurate estimate (**Definition 1,2**).  (**Lemma 4**)
+
+And then we have
+
+$$\liminf_{k\rightarrow \infty} \|g(W_k,\mathcal{S}_k)\| = 0.$$ 
+
+(**Theorem 2**). (How to understand the two Cases.)
+
+Similarly, so long as $|\mathcal{S}_k|$ enough large, 
+we get $M \rightarrow R$ accurate estimate (**Definition 3,4**).  (**Lemma 5**)
+
+
+
+How to understand 
+
+$$\Phi_k = \nu R(W_k) + \frac{1-\nu}{\Lambda_k}.$$
 
 
 ## Code

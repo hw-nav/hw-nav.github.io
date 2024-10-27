@@ -14,11 +14,45 @@ The final theorem is to prove
 
 $$\liminf_{k\rightarrow \infty} \|\nabla R(W_k)\| = 0.$$
 
-
+Almost-sure global convergence.
 
 ## Algorithm
 
-I will push it in github. Main part of it is
+The algorithm
+
+---
+> **Algorithm**: The stochastic LM algorithm
+
+> **Step 0** Given $w_0\in \mathbb{R}^n$, $p_0>0$, $\epsilon>0$, $\gamma>1$, $\lambda_{\min}>0$. Set $k:=0$.
+
+> **Step 1** Select a random set $\mathcal{S}_k=\{\xi_1,\cdots,\xi_{|\mathcal{S}_k|}\}$ from distribution of $\xi$.
+
+> If $\|g(w_k,\mathcal{S}_k)\|<\epsilon$, stop.
+
+> Solve
+
+> $$(H(w_k,\mathcal{S}_k)+\lambda_k \|g(w_k,\mathcal{S}_k)\| I) d = -g(w_k,\mathcal{S}_k),$$
+
+> to obtain $d_k$.
+
+> **Step 2** Compute $r_k$ by
+
+> $$r_k=\frac{f(w_k,\mathcal{S}_k)-f(w_k+d_k,\mathcal{S}_k)}{m_k(w_k)-m_k(w_k+d_k)}.$$
+
+> Set
+
+> $$w_{k+1}=\begin{cases}w_k+d_k, &\text{if}\; r_k \geqslant p_0,\\ w_k, &\text{otherwise}.\end{cases}$$
+
+> Compute
+
+> $$\lambda_{k+1}=\begin{cases}\max\left\{\frac{\lambda_k}{\gamma}, \lambda_{\min}\right\}, &\text{if}\; r_k \geqslant p_0,\\ \gamma \lambda_k, &\text{otherwise}.\end{cases}$$
+
+> **Step 3** Set $k:k+1$, go to **Step 1**.
+---
+
+
+
+I will push code in github. Main part of it
 
 ```python
 class StochasticLevenbergMarquardt_TrustRegion:

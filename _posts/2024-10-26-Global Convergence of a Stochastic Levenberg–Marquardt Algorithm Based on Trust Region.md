@@ -11,7 +11,8 @@ tags:
 ## Paper
 
 The final theorem is to prove
-$$\liminf_{k\rightarrow \infty} \|\nabla R(W_k)\| = 0.\\$$
+
+$$\liminf_{k\rightarrow \infty} \|\nabla R(W_k)\| = 0.$$
 
 
 

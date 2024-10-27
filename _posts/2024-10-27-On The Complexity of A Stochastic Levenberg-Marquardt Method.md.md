@@ -17,3 +17,9 @@ then
 
 $$E(N_\varepsilon) \leq \zeta_6 \varepsilon^{-2} + \frac{1}{1-\exp(-\zeta_7)}.$$
 
+
+
+
+## Reference
+
+[1] Shao W, Fan J. On the complexity of a stochastic Levenberg-Marquardt method[J]. Journal of Industrial and Management Optimization, 2024, 20(3): 1011-1027.
